@@ -27,30 +27,29 @@ body {
 
  width: 250px;
  margin-bottom:0px;
+ padding-top:0;
  
- 
+ position:absolute; top:O;left:2em;
+
 }
 
-.ruzovekolecko{
-    background:#b92e81;
-    width: 30px;
-    border-radius:50%;
-    position:absolute; left:220px;top:220px;
+
+
+.logo{
+    position:absolute;left:220px;top: 210px;
 }
 
 .sedyramecek{
     width: 250px;
-    height: 680px;
+    height:738px;
     background-color:#31363a;
-    margin:0;
-    padding:0;
- 
-    
+    box-shadow: black 2px 3px 3px;
+
 }
 
 .jmeno{
     padding-left:22px;
-    padding-top: 50px;
+    padding-top: 210px;
     font-size: 1.5rem;
     color: white;
     text-align: left;
@@ -59,58 +58,84 @@ body {
 }
 
 p{
-    font-size: 1rem;
+    font-size: 0,9rem;
     color:#bec3c7;
-    padding: 30px 20px 30px 20px;
+    padding: 20px 20px 30px 20px;
     line-height: 1.5;
+    padding-top: 20px;
 }
 
-
-
-li{
-    display:inline-block;
-    line-height:3;
-    border-style:solid;
-    border-color:white;
-    border-width:2px;
-   
+.prvniodstavec{
+    padding-bottom: 15px;
     
-
-
-     
 }
 
-.portfolio a:hover{
+.druhyodstavec{
+    padding-top:0;
+}
+.odkazy{
+    margin:0;
+    padding: 0;
+    text-align:center;
+    align-items:center;
+}
+
+.odkazy li{
     display:inline-block;
-    text-align: center;
+    text-align:center;
+    align-items:center;
+    height:40x;
+    margin:0;
+      
+}
+
+.odkazy a{
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-decoration: none;
+    line-height: 3;
+    padding: 10px;
+        
+}
+
+
+
+.portfolio{
+border-top: 1px solid #3f464d; 
+border-bottom: 1px solid #3f464d; 
+width:250px;
+}
+
+.facebook{
+    width: 123px;
+}
+
+.twitter{
+    width:123px; 
+}
+
+.portfolio:hover{
     background-color:#e74c3c;
+    width:250px;
     
-     
 }
 
-.facebook a:hover{
+.facebook:hover{
     background-color: #3b5998;
- 
-    
+    width:123px;
+
 }
  
- .twitter a:hover{
+ .twitter:hover{
      background-color:#1da1f2;
+     width:123px;
     
-
  }
 
- a{
-     color:white;
-     text-decoration: none;
-     
- }
+
+
+
 
  
- .logo{
-     position:absolute;left:220px;top: 220px;
- }
-
- ul{
-     margin: 0px;
- }
