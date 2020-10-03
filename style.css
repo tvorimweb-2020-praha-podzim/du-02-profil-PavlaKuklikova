@@ -16,4 +16,101 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 2em;
+    margin-top:4em;
+    
+
 }
+
+.foto{
+
+ width: 250px;
+ margin-bottom:0px;
+ 
+ 
+}
+
+.ruzovekolecko{
+    background:#b92e81;
+    width: 30px;
+    border-radius:50%;
+    position:absolute; left:220px;top:220px;
+}
+
+.sedyramecek{
+    width: 250px;
+    height: 680px;
+    background-color:#31363a;
+    margin:0;
+    padding:0;
+ 
+    
+}
+
+.jmeno{
+    padding-left:22px;
+    padding-top: 50px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+    font-size: 1rem;
+    color:#bec3c7;
+    padding: 30px 20px 30px 20px;
+    line-height: 1.5;
+}
+
+
+
+li{
+    display:inline-block;
+    line-height:3;
+    border-style:solid;
+    border-color:white;
+    border-width:2px;
+   
+    
+
+
+     
+}
+
+.portfolio a:hover{
+    display:inline-block;
+    text-align: center;
+    background-color:#e74c3c;
+    
+     
+}
+
+.facebook a:hover{
+    background-color: #3b5998;
+ 
+    
+}
+ 
+ .twitter a:hover{
+     background-color:#1da1f2;
+    
+
+ }
+
+ a{
+     color:white;
+     text-decoration: none;
+     
+ }
+
+ 
+ .logo{
+     position:absolute;left:220px;top: 220px;
+ }
+
+ ul{
+     margin: 0px;
+ }
